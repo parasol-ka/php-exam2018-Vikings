@@ -1,0 +1,10 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pillages_container {
+    margin: 2rem;
+}
+.pillages_links {
+    text-decoration: none;
+    color: black;
+}
