@@ -4,7 +4,15 @@ body {
 #pillages_container {
     margin: 2rem;
 }
-.pillages_links {
+.pillages_links  {
     text-decoration: none;
     color: black;
+}
+#back_links{
+    text-decoration: none;
+    color: darkorange;
+}
+#chef_info {
+    background-color: brown;
+    padding: 3%;
 }

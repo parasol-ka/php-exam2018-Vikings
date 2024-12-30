@@ -53,7 +53,7 @@
 						echo "<p class='pillages_lines'>";
 						$closing='echo "</p>"';
 					}else {
-						echo"<a href='pillages.php?id=$id_pillage' class='pillages_links'>";
+						echo"<a href='pillages.php?pillage=$id_pillage' class='pillages_links'>";
 						$closing='echo "</a>"';}
 
 					if (empty($icon)){
