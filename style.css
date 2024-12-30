@@ -3,10 +3,22 @@ body {
 }
 #pillages_container {
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 .pillages_links  {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.pillages_lines {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 0;
 }
 #back_links{
     text-decoration: none;
@@ -15,4 +27,26 @@ body {
 #chef_info {
     background-color: brown;
     padding: 3%;
+}
+.error_field {
+    color : red;
+}
+#chef_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+}
+#army_container{
+    padding-left: 3rem;
+}
+#army_statistics {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5%;
+}
+#army_statistics figure {
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
